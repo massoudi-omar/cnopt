@@ -20,13 +20,13 @@ export default function Header() {
         <div className="flex items-center gap-2 text-xs sm:text-sm md:text-base">
           <span className="hidden sm:inline">Suivez-Nous</span>
           <div className="flex gap-2">
-            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/company/cnopt/?viewAsMember=true" target="_blank" rel="noreferrer">
               <FaLinkedin style={{ color: theme.colors.primary }} size={18} />
             </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/cnopt.tn?igsh=MXhrZ3I2aWQyaDVpbQ==" target="_blank" rel="noreferrer">
               <FaInstagram style={{ color: theme.colors.secondary }} size={18} />
             </a>
-            <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+            <a href="https://www.facebook.com/CNOPT.tn" target="_blank" rel="noreferrer">
               <FaFacebook style={{ color: theme.colors.primary }} size={18} />
             </a>
           </div>

@@ -36,13 +36,13 @@ export default function Footer() {
                 <div className="flex flex-col">
                     <h3 className="font-semibold text-lg mb-2">Suivez-Nous</h3>
                     <div className="flex gap-4 text-xl">
-                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/CNOPT.tn" target="_blank" rel="noopener noreferrer">
                             <FaFacebookF />
                         </a>
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/cnopt.tn?igsh=MXhrZ3I2aWQyaDVpbQ==" target="_blank" rel="noopener noreferrer">
                             <FaInstagram />
                         </a>
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/company/cnopt/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
                             <FaLinkedinIn />
                         </a>
                     </div>
