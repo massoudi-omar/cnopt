@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Hide scrollbar for all browsers */
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+
+.custom-scrollbar::-webkit-full{
+   scrollbar-width:1px; /* Firefox */
+  scrollbar-color: #383f7363 transparent; /* Firefox thumb + track */
+}
+.custom-scrollbar::-webkit-scrollbar {
+   scrollbar-width:1px; /* Firefox */
+  scrollbar-color: #383f7363 transparent; /* Firefox thumb + track */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  scrollbar-width:1px; /* Firefox */
+  scrollbar-color: #383f7363 transparent; /* Firefox thumb + track */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent; /* track color */
+}
+
+/* Optional: hide arrows in Firefox */
+.custom-scrollbar {
+  scrollbar-width:1px; /* Firefox */
+  scrollbar-color: #383f7363 transparent; /* Firefox thumb + track */
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: darkgrey;
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.section::-webkit-scrollbar {
+  width: 10px;
+}
+
+.section::-webkit-scrollbar-track {
+  background-color: darkgrey;
+}
+
+.section::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+html {
+  scrollbar-color: #383f73 #e0e0e0;
+  scrollbar-width: thin;
+}
+.section::-webkit-scrollbar {
+  width: 16px;
+}
+
+.section::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.section::-webkit-scrollbar-thumb {
+  background-color: #d4aa70;
+  border-radius: 100px;
+}
+
+
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #383f7363 transparent;
+}
+
+/* Chrome / Edge / Safari */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #383f7363;
+  border-radius: 10px;
+}
